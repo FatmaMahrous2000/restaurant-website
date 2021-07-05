@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{font-family:sans-serif}
+.container{width:1200px;margin:auto}
+/*start header*/
+.header{background-image: url('images/_112360461_gettyimages-1083704790.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;height: 630px;}
+ .navbar{width:100%;background-color:#243030;color:white;overflow:hidden;height:60px;line-height: 63px;}
+
+
+  .navbar a {
+      float:left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 16px;
+    background-color:inherit ;
+    font-family: inherit;
+    margin: 0;
+  }
+  .first_link{margin-left: 250px;}
+ 
+  .navbar .link:hover, .dropdownn:hover .dropbtnn {
+    color: #c76f10;
+    font-size: 20.5px;
+  }
+  .active{background-color: #c76f10;}
+ 
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -5px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color:#c76f10
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  a{text-decoration:none}
+  .navbar .btn-reserve{float:right;background-color:#dd8f3b ;padding:6px;border-radius: 30px;border: 1px dotted white ;
+  color:white;font-size: 20px;overflow: hidden;margin: 12px 20px;overflow: hidden;}
+ .navbar .btn-reserve a{padding:0px;overflow: hidden;}
+ .navbar .btn-reserve  :hover{color:black ;}
+
+ .navbar h1{float: left;font-size: 27px;color:white}
+.navbar span{color:#dd8f3b}
+  .header .slider{padding-top: 20px;padding-left: 20px;width: 48%;float: left;}
+  .header .slider span{color:#dd8f3b;font-size: 110px;font-family: 'Yellowtail', cursive;}
+  .header .slider h1{font-size: 70px;padding-top: 10px;color:white;font-weight: bold;}
+  .header .slider p{color: white;padding-top: 20px;font-size: 20px;line-height: 1.7em;}
+  .header .slider button{margin-left: 10%;margin-top: 50px;padding: 20px;border: 0px;border-radius: 30px;font-size: 22px;}
+  .header .slider .btn1 button{background-color:#dd8f3b;padding: 20px 30px;color:white;} 
+  .header .slider .btn1 button:hover{background-color:white;color: #c76f10;}
+
+  .header .slider .btn2 button{background-color:#243030;color:#c76f10} 
+  .header .slider .btn2 button:hover{background-color:white;}
+ 
+  
+/*end header */
+
+
+/*start discover section*/
+.discover{margin-top: 30px;height: 500px;}
+.discover h2{font-family: 'Yellowtail', cursive;text-align: center;font-size: 70px;color: #dd8f3b;}
+.discover h1 ,.menu h1 {font-size: 35px;text-align: center;padding-bottom: 5px;font-family: 'Anton', sans-serif;letter-spacing: 4px;}
+.discover hr,.menu hr {border: 1px solid #dd8f3b;margin: 0px 610px;display: block;margin-top: 10px;}
+.discover .left {float:left;margin-top: 40px;width:50%;overflow: hidden;}
+.discover .left p{font-size: 20px;color:#666;line-height: 1.4em;text-align: justify;margin-right: 40px;}
+.discover .right {float:right;margin-top: 40px;width:50%;overflow: hidden;}
+.discover .right p{font-size: 20px;color:#666;line-height: 1.4em;text-align: justify;margin-left: 40px;}
+.discover button{margin-top: 100px;padding: 20px;border: 0px;border-radius: 30px;background-color: #dd8f3b;margin: 30px 43.5%;}
+.discover button:hover{background-color: #243030;}
+.discover button a{color:white;font-size: 20px;}
+
+
+/*end discover section*/
+
+/*start menu section */
+.menu{background-image:url('images/sup_93_arctic_white.jpg');background-position: center;
+background-repeat: no-repeat;background-size: cover;height: 1750px;}
+.menu H2{font-family: 'Yellowtail', cursive;text-align: center;font-size: 50px;color: #dd8f3b;padding-top: 40px;}
+.menu .image_c1 {width:30%;float:left;border-radius: 10px;height: 300px;margin-bottom: 100px;margin-left: 30px;}
+.menu .image_c1 img{width: 100%;height: 300px;border-radius: 10px;}
+.menu .p1{font-weight: bold;margin-top: 10px}
+.menu .p2{font-size: 13px;color: #333;margin-top: 10px;font-weight: bold}
+.menu button{padding: 20px;border: 0px;border-radius: 30px;background-color: #dd8f3b;margin: 30px 42% 20px}
+.menu button:hover{background-color: #243030;}
+.menu button a{color:white;font-size: 20px;}
+
+
+ .menu .beautiful_terioer {height: 500px;}
+.menu .beautiful_terioer .image1{height: 400px;width: 700px;background-image: url('images/IMG_8483.jpg');background-position: center;
+background-size: cover;background-repeat: no-repeat;margin-top: 70px;float: left;margin-left: 50px;border-radius:3px;
+border: 5px solid #dd8f3b;}
+.menu .beautiful_terioer .marg1{width: 550px;height: 330px;background-color:white;float:left;margin-top: 105px;margin-left: -160px;
+border-radius: 30px;border: 3px solid #666;}
+.menu .beautiful_terioer .text1{width: 510px;height: 290px;background-color:white;border:2px #999 solid;margin:20px;border-style:dotted ;
+text-align: center;border-radius: 30px;}
+ .menu .beautiful_terioer .text1 i{padding-top: 30px;}
+ .menu .beautiful_terioer .text1 h1{font-size: 35px;letter-spacing: 3px;font-weight: normal;margin-top: 20px;}
+.menu .beautiful_terioer .text1 p{color: #666;font-size: 18px;padding-top: 10px;}
+.menu .beautiful_terioer .text1 hr{border: 1px solid #dd8f3b;margin: 10px 180px ;display: block;}
+
+
+
+ .menu .beautiful_terioer .image2{height: 420px;width: 700px;background-image: url('images/81OiUnpkKv9BraCn4mxeSp.jpg');background-position: center;
+    background-size: cover;background-repeat: no-repeat;float: right;margin-right: 50px;border-radius:3px;border: 5px solid #dd8f3b;
+margin-top: 50px;}
+.menu  .beautiful_terioer .marg2{width: 550px;height:350px;background-color:white;float:right;margin-top: 90px;margin-right: -160px;
+    border-radius: 30px;border: 3px solid #666;}
+.menu  .beautiful_terioer .text2{width: 510px;height: 310px;background-color:white;border:2px #999 solid;margin:20px;border-style:dotted ;
+    text-align: center;border-radius: 30px;}
+ .menu .beautiful_terioer .text2 i{padding-top: 50px;}
+.menu .beautiful_terioer .text2 h1{font-size: 35px;letter-spacing: 3px;font-weight: normal;margin-top: 20px;}
+.menu .beautiful_terioer .text2 p{color: #666;font-size: 18px;padding-top: 10px;}
+.menu .beautiful_terioer .text2 hr{border: 1px solid #dd8f3b;margin: 10px 180px ;display: block;}
+
+/*end menu section*/
+
+
+/*start menu dishes section*/
+
+.menu_dishes{height: 850px;margin-top: 50px;}
+.menu_dishes h2{font-family: 'Yellowtail', cursive;text-align: center;font-size: 40px;color: #dd8f3b;}
+ .menu_dishes h1{font-size: 48px;text-align: center;padding-bottom: 5px;font-family: 'Anton', sans-serif;letter-spacing: 4px;font-weight: normal;}
+.menu_dishes hr {border: 1px solid #dd8f3b;margin: 10px 500px;display: block;}
+.menu_dishes .left_side{float: left;width: 50%;margin-top: 20px ;}
+.menu_dishes .left_side .left_img,.menu_dishes .right_side .right_img{float:left;width: 100px;height: 100px;border-radius: 100px;
+    margin-top: 20px;}
+.menu_dishes .left_side .left_text,.menu_dishes .right_side .right_text{margin: 30px 0px 10px 120px;overflow: hidden;}
+.menu_dishes .left_side .left_text h4,.menu_dishes .right_side .right_text h4{font-weight:700;margin-bottom: 7px;}
+.menu_dishes .left_side .left_text p,.menu_dishes .right_side .right_text p{color: #666;font-size: 15px;margin-bottom: 7px;}
+.menu_dishes  .different1{background-color: blueviolet;border: 1px;border-radius: 3px;padding: 3px;color: white;
+font-size: 13px;}
+.menu_dishes  .common{background-color:white;border: 1px solid #999;border-radius: 3px;padding: 3px;color:black;
+font-size: 13px;margin-left: 3px;}
+.menu_dishes .different2{background-color:crimson;border: 1px;border-radius: 3px;padding: 3px;color: white;
+    font-size: 13px;}
+ .menu_dishes .different3{background-color:#dd8f3b;border: 1px;border-radius: 3px;padding: 3px;color: white;
+   font-size: 13px;} 
+.menu_dishes .different4{background-color:deepskyblue;border: 1px;border-radius: 3px;padding: 3px;color: white;
+  font-size: 13px;} 
+
+  .menu_dishes .right_side{overflow: hidden;float: right;width: 48%;margin-top: 20px;}
+ .menu_dishes .view{padding: 20px;border: 0px;border-radius: 30px;background-color: #dd8f3b;margin:30px 41.5% 10px;}
+ .menu_dishes .view a{font-size: 18px;color: white;}
+/*end menu dishes section*/
+
+
+/*start events section*/
+
+.events{height:800px ;background-image: url('images/sup_93_arctic_white.jpg');background-position: center;background-repeat: no-repeat;
+background-size: cover;}
+.events .container2{width:1000px;margin: auto;}
+.events .left_event{background: url('images/pexels-valeria-boltneva-1639562.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;width:48%;height:350px;float:left;
+    margin-top: 100px;text-align: center;color:white;border-radius: 5px;overflow: hidden;}
+ 
+.events .left_event h1{padding: 50px 0px 20px;font-size: 40px;}
+.events .left_event p{font-size: 18px;line-height: 2em;padding: 0px 20px;}
+.events .left_event button,.events .right_event button{padding: 20px;border: 0px;border-radius: 30px;background-color: #dd8f3b;margin:30px 30% 10px;
+color: white;font-size: 18px;}
+
+.events .right_event{background: url('images/kadeau-copenhagen-restaurant-interior-oeo-studio_dezeen_2364_sq-411x411.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;width:48%;height:350px;float:right;
+    margin-top: 100px;text-align: center;color:white;border-radius: 5px;overflow: hidden;}
+.events .right_event h1{padding: 50px 0px 20px;font-size: 40px;}
+.events .right_event p{font-size: 18px;line-height: 2em;padding:0px 20px}
+.events .welcome{float: left;width:58%;height: 230px;background-color: rgb(196, 192, 192);border-left:5px solid #dd8f3b
+    ;margin-top: 40px;padding: 30px 60px 10px 60px;overflow: hidden;}
+.events .welcome p{font-size: 17px;line-height: 1.7em;color:#222}
+.events .welcome h1{padding-bottom: 10px;font-family: 'Anton', sans-serif;font-size: 30px;font-weight: normal;}
+.events .happy_hour{float: right;width:38%;height: 230px;background-color: rgb(224, 48, 83);margin-top: 40px;overflow: hidden;}
+.events .happy_hour .borderr{width:92%;height: 200px;border: 1px solid white;margin: 15px;color:white}
+.events .happy_hour .borderr i{float:right;margin: 50px 20px;}
+.events .happy_hour .borderr .hour{width: 65px;height: 25px;border: 1px solid white;margin: 30px 20px 10px 30px;padding:5px;border-radius: 5px;}
+.events .happy_hour .borderr .hour p{font-size: 12px;color:white;}
+.events .happy_hour .borderr h1{font-size:45px;font-weight:normal;font-family: 'Anton', sans-serif;padding:2px 5px 5px 30px;}
+.events .happy_hour .borderr h4{font-size:16px;font-weight:bold;font-family:sans-serif;padding:2px 5px 8px 30px;}
+/*end events section*/
+
+/*start reservation section */
+.reserve{background-image:url('images/pexels-photo-988508.jpeg');background-position:center;background-repeat:no-repeat;
+   background-size:  cover;justify-items: center;justify-content:center;height: 600px;border: 10px solid white;}
+   .overlay_1{width: 100%;height: 100%;background-color: rgba(255, 255, 255, 0.089);position: relative;opacity: .8;
+    overflow: hidden;padding-top: 50px;}
+   .reserve h3{font-family: 'Yellowtail', cursive;text-align: center;font-size: 70px;color: #c76f10;font-weight:500;}
+   .reserve h1{font-size: 55px;text-align: center;padding-bottom: 5px;font-family: 'Anton', sans-serif;letter-spacing: 4px;font-weight: normal;}
+  .reserve hr {border: 1px solid  #c76f10;margin: 10px 600px;display: block;}
+  .reserve p{font-size: 40px;font-family: 'Redressed', cursive;text-align: center;color:rgb(0, 0, 56);font-weight: 700;padding-top: 30px;}
+  .reserve button{background-color: #c76f10;padding: 20px;border:0px ;border-radius: 35px;margin: 40px 43%;color: white;
+font-size: 25px;}
+
+/*end reservation section */
+
+/*start cheif section */
+ .cheif{height: 700px;background-image: url('images/sup_93_arctic_white.jpg');background-position: center;background-repeat: no-repeat;
+background-size: cover;}
+.container3{width: 1000px;margin: auto;}
+.cheif .photo {float:left;width: 40%;height: 570px;background-image: url('images/59f5bb496a27c40001326b7c_chief-photo-p-500.jpeg');background-position: center;
+background-repeat: no-repeat;background-size: cover;margin-top: 100px;}
+.cheif .cheif_text{width: 38% ;height: 500px;float: left;margin-top: 160px;margin-left: 100px;margin-right: 100px;}
+.cheif .cheif_text h3{font-family: 'Yellowtail', cursive;font-size: 50px;color: #c76f10;font-weight:300;margin-bottom: 10px;}
+.cheif .cheif_text h1{font-size: 40px;padding-bottom: 15px;font-family: sans-serif;
+    font-weight:bold;}
+.cheif .cheif_text hr {border: 1px solid  #c76f10;margin: 10px 400px 10px 0px;display: block;}
+.cheif .cheif_text p{font-size: 19px;line-height: 1.7em;color: #666;padding-top: 15px;}
+.cheif .cheif_text h2{font-family: 'Yellowtail', cursive;font-size: 45px;font-weight:200;margin-top: 20px;letter-spacing: -2px;}
+/*end cheif section */
+
+
+
+/*start photos section */
+.photos{height: 520px;margin: 20px 20px 12px 20px;}
+.photos img{width: 19.5%;height: 250px;float: left;margin:0px  8px 8px 0px;overflow: hidden;}
+.photos .special{margin-right: 0px;overflow: hidden;}
+/*end photos section*/
+
+
+/*start location section*/
+.location{height: 800px;background-image: url('images/sup_93_arctic_white.jpg');background-position: center;background-repeat: no-repeat;
+background-size: cover;padding-top: 100px;overflow: hidden;}
+.location .big_location{float:left;width:64%;height: 580px;background-color: white;padding: 20px;}
+.location .big_location .text_location{width:50%;height: 100%;border: 2px solid #999;text-align: center;float: left;}
+.location .big_location .text_location img{width:80px;height: 80px;margin-top:80px;margin-bottom: 20px;}
+.location .big_location .text_location h1{font-size: 35px;padding-bottom: 5px;font-family: 'Anton', sans-serif;letter-spacing: 2px;
+    font-weight:300;text-align: center;}
+.location .big_location .text_location hr {border: 1px solid  #c76f10;margin:5px 120px ;}
+.location .big_location .text_location .p1{color:#333;padding: 20px;font-size: 17px;}
+.location .big_location .text_location .p2{color:#666;padding-bottom: 20px;}
+.location .big_location .text_location span{color: rgb(196, 92, 92);}
+
+.location .big_location .map{height:100%;width: 47%;float:right;border: 1px solid #999;}
+
+.location .opening_hours{height:580px;width:32%;background-color: rgb(23, 23, 53);float:right;padding: 20px;margin-left: 10px;}
+.location .opening_hours .inner{width:99%;height: 99%;border: 2px solid white;padding-top: 20px;}
+.location .opening_hours .inner h2{font-family: 'Yellowtail', cursive;font-size: 50px;color: #dd8f3b;font-weight:200;margin-bottom: 10px;
+text-align: center;}
+.location .opening_hours .inner h1{font-size: 30px;padding-bottom: 15px;font-family: sans-serif;text-align: center;color:white;
+    font-weight:bold;}
+.location .opening_hours .inner p{font-size: 15px;color:white;margin: 25px 30px;}
+.location .opening_hours .inner span{font-weight: bold;font-size: 15px;color:white;}
+.location .opening_hours .inner .close{color:rgba(247, 0, 0, 0.733)}
+.location .opening_hours .inner button{background-color: #dd8f3b;color: white;padding: 12px;font-size: 18px;border: 0px;border-radius: 25px;
+margin-left: 30%;margin-top: 5px;}
+   
+/*end locatoin section*/
+
+
+/*start footer section*/
+.footer{height:650px;background:url('images/a1097066e9489d20fb2481a40642b227.jpg'),no-repeat,center;border:15px solid white;}
+.footer .contact {float:left;width:23%;color:white;overflow: hidden;}
+.footer .contact h1,.footer .navigation h1, .footer .recent_posts h1{padding:20px 0px ;font-size: 20px;font-family:sans-serif;font-weight: 600;}
+.footer .contact p{font-size: 15px;margin: 30px 0px;}
+.footer .contact a{color: #dd8f3b;}
+.footer .contact a:hover{text-decoration: underline;}
+.footer .contact i{font-size:40px;color:white;margin-right:10px ;}
+.footer .contact i:hover{color:#dd8f3b}
+
+
+.footer .navigation {width:23%;float: left;margin-left: 30px;color: white;overflow: hidden;}
+.footer .navigation ul{list-style: none;margin-top:30px ;}
+.footer .navigation li{margin-bottom: 30px;}
+.footer .navigation li a{color: white;}
+.footer .navigation li a:hover{text-decoration: underline;}
+.footer .navigation li .book{color:#dd8f3b}
+.footer .navigation .update{display: inline;width:20px;height: 20px;padding: 5px;background-color:rgb(190, 25, 47);color:white;
+border-radius: 5px;margin-left: 20px;font-size: 15px;}
+
+
+.footer .recent_posts{width:23%;margin-left:30px ;float:left;color: white;overflow: hidden;}
+.footer .recent_posts h4{color:#999;margin-top:30px ;margin-bottom: 15px;font-weight: 400;}
+.footer .recent_posts a {color:white;font-size: 15px;}
+.footer .recent_posts a:hover{text-decoration: underline;}
+.footer .recent_posts hr{margin: 20px 0px 10px ;border:.1px solid rgb(105, 104, 104)}
+.footer .recent_posts .last_hr{margin-bottom: 40px;}
+
+
+.footer .instagram{width:23%;float:left;color:white;margin-left: 30px;overflow: hidden;}
+.footer .instagram h1{padding:20px 0px 50px ;font-size: 20px;font-family:sans-serif;font-weight: 600;}
+.footer .instagram img{width:78px;height:85px;float:left;margin: 0px 13px 13px 0px;overflow: hidden;}
+.footer .instagram p{margin-top: 220px;}
+.footer .instagram a{color: white;}
+
+
+.footer .last_section{height:70px;background-color:black;opacity: .7;overflow: hidden;width: 100%;margin-top: 550px;text-align: center;
+    color:#c76f10;padding: 35px;font-size: 18px;font-weight: 550;padding: 30px 0px;justify-content: center;display: flex;}
+.footer .last_section p{display: inline;float:left;}
+.footer .last_section p a,.footer .last_section ul a{color:white;font-weight: 550;font-size: 16px;}
+.footer .last_section p a:hover{text-decoration: underline;}
+.footer .last_section  ul{float:left;}
+.footer .last_section ul li{ margin-left:40px;float:left}
+.footer .last_section ul a:hover{text-decoration: underline;}
+
+/*end footer section*/
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+/*start header section */
+ .slider_minuGrid{background-image: url('images/pexels-valeria-boltneva-1639562.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;height: 500px;line-height: 400px;}
+ .navbar{background-color: #555;}
+ .overlay_1{opacity:1;background-color:black;}
+ .slider_minuGrid h1{color:white;font-size:120px;letter-spacing: 3px;float:left;margin-left: 70px;font-family: 'Anton', sans-serif ;}
+.dropdown .active{background-color: #dd8f3b;}
+.dropdown:hover .dropbtn{color:white}
+
+/*end header section */
+
+
+/*start break  fast  and lunch section */
+.break_fast, .lunch, .dinner, .dessert, .drink{height: 1150px;padding:100px 10px 0px 50px ;width: 1300px;margin: auto;}
+ h2{font-family: 'Yellowtail', cursive;text-align: center;font-size: 60px;color: #dd8f3b;font-weight: 300;}
+ h1 {font-size: 50px;text-align: center;padding-bottom: 5px;font-family: 'Anton', sans-serif;letter-spacing: 3px;font-weight: 300;}
+ hr{border: 1px solid #dd8f3b;margin: 0px 550px;display: block;margin-top: 10px;}
+
+.image_c1 {width:30%;float:left;border-radius: 10px;height: 300px;margin-right: 40px;margin-bottom: 100px;margin-top: 40px}
+ .image_c1 img{width: 100%;height: 300px;border-radius: 10px;}
+.p1{font-weight: bold;margin-top: 10px}
+ .p2{font-size: 13px;color: #333;margin-top: 10px;font-weight: bold}
+
+
+ .lunch{height:2050px}
+ .dinner{height:1650px}
+ .dessert{height:1650px;}
+ .drink{height:2150px}
+
+/*end break fast section*/

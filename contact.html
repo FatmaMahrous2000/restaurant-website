@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="page" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact_style.css">
+</head>
+<body>
+    
+ <!-- start header -->
+ <div class="header_contact">
+    <div class="navbar">
+
+      <div class="container">
+        <h1>DELICIOUS <span>CAFEE</span></h1>
+      <button class="btn-reserve" > <a href="reservation.html" >Reservation</a></button> 
+      <a href="index.html" class="first_link link">HOME</a>
+      <div class="dropdown">
+        <button class="dropbtn ">MENU
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="minu_grid.html">Menu Grid</a>
+          <a href="minu_list.html">Menu List</a>
+        </div>
+      </div> 
+      <a href="blog.html" class="link">BLOG</a>
+      <a href="about.html" class="link">ABOUT</a>
+      <a href="contact.html" class="active">CONTACT</a>
+      
+    </div>
+    
+  </div>
+      <div class="slider_contact ">
+        <div class="overlay_1">
+        <h1>CONTACT</h1>
+      </div>
+       </div>
+  </div>
+  <!--end header-->
+
+
+
+  <!--srart contact us section -->
+
+<div class="contact_us">
+    <h2>Contact Us</h2>
+    <h1>LET'S GET IN TOUCH</h1>
+    <hr><hr>
+
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <textarea placeholder="Drop us a line or two .."></textarea>
+    <button>Submit Message</button>
+</div>
+
+  <!--end contact us section-->
+
+
+
+  
+
+    <!--start location section-->
+    <div class="location">
+        <div class="container">
+          <div class="big_location">
+            <div class="text_location"> 
+              <img src="images/59f5b840defbd900010137b9_location-icon.png">
+              <h1>EASY TO FIND</h1>
+              <hr><hr>
+              <p class="p1">Delicious Cafe, 1649 Norman Street, Los Angeles, 90011</p>
+              <p class="p2">info@cafedomain.com</p>
+              <span>8 (800) 316-06-42</span>
+              
+            </div>
+   
+            <div id="googleMap" ></div>
+   
+            <script>
+            function myMap() {
+            var mapProp= {
+              center:new google.maps.LatLng(51.508742,-0.120850),
+              zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            </script>
+            
+            <div class="map"> 
+             <!-- Google Map Copied Code -->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549137102!2d31.30329316546666!3d30.
+             032468600237618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Ca
+             iro%20Governorate!5e0!3m2!1sen!2seg!4v1609924024627!5m2!1sen!2seg" width="100%" height="100%"  style="border:0;" 
+             allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div> 
+   
+          </div>
+   
+          <div class="opening_hours">
+            <div class="inner">
+              <h2>Welcome</h2>
+              <h1>OPENING HOURS</h1>
+              <p> Monday.................................<span>8AM - 10PM</span></p>
+              <p> Tuesday................................<span>8AM - 10PM</span></p>
+              <p> Wednesday...........................<span>8AM - 10PM</span></p>
+              <p> Thursday...............................<span>8AM - 10PM</span></p>
+              <p> Friday....................................<span>8AM - 10PM</span></p>
+              <p> Saturday...............................<span>8AM - 10PM</span></p>
+              <p> Sunday.......................................<span class="close">CLOSED</span></p>
+              <a href=""><button>Reservation</button></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+       <!--end location section-->
+
+
+
+        <!--start footer section-->
+  <div class="footer">
+    <div class="container">
+    <div class="contact">
+      <h1>CONTACT INFO</h1>
+      <p>Delicious Cafe, 1649 Norman Street, 
+         Los Angeles, 90011</p>
+         <a href="">hello@deliciouscafe.com</a>
+         <p>8 (800) 316-06-42</p>
+         <i class="fa fa-twitter-square" ></i>
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-instagram"></i>
+    </div>
+
+    <div class="navigation">
+      <h1>NAVIGATION</h1>
+      <ul>
+        <li><a href="">Home</a> </li>
+        <li><a href="">Menu</a><div class="update">UPDATED</div></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="" class="book">Book a Table</a></li>
+      </ul>
+    </div>
+
+    <div class="recent_posts">
+      <h1>RECENT POSTS</h1>
+      <h4>July 30, 2017</h4>
+      <a href="">Barbecue party tips for a truly amazing event</a>
+      <hr>
+
+      <h4>August 9, 2017</h4>
+      <a href=""> The principles of scientific cooking</a>
+      <hr>
+
+      <h4>September 24, 2017</h4>
+      <a href=""> Cooking for one</a>
+      <hr class="last_hr">
+      <a href="">View All Posts</a>
+    </div>
+
+    <div class="instagram">
+      <h1>INSTAGRAM</h1>
+      <img src="images/5a901e8051487600011555f1_instagram-01.jpg">
+      <img src="images/5a901e8019e7db0001fdbd2f_instagram-02.jpg">
+      <img src="images/5a901e8019e7db0001fdbd2e_instagram-03.jpg">
+      <img src="images/5a901e80b223b60001243d80_instagram-04.jpg">
+      <img src="images/5a901e8051487600011555f0_instagram-05.jpg">
+      <img src="images/5a901e80ec586e0001d6626b_instagram-06.jpg">
+     <p><a href="">View More Photos</a></p> 
+    </div>
+   </div>
+
+   <div class="last_section">
+     <p>Created with <i class="fa fa-heart" style="font-size:20px;color:rgb(150, 7, 7)"></i> by <a href="">Elastic Themes </a></p>
+       <ul>
+         <li>Powered By <a href=""> WebFlow</a></li>
+         <li><a href="">StyleGuide</a></li>
+         <li><a href="">Licenses</a></li>
+       </ul>
+   
+    
+   </div>
+  </div>
+ 
+
+   <!--end footer section-->
+       </body>
+       </html>

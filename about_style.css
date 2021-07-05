@@ -1,0 +1,46 @@
+/*start header section */
+.slider_about{background-image: url('images/59f9b3d8269fd6000139adda_jazmin-quaynor-35847.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;height: 500px;line-height: 400px;}
+ .navbar{background-color: #555;}
+ .overlay_1{width: 100%;height: 100%;background-color:rgba(17, 17, 17, 0.5);position: relative;opacity: .9;
+    overflow: hidden;padding-top: 50px;}
+ .slider_about h1{color:white;font-size:100px;letter-spacing: 3px;text-align: center;font-family: 'Anton', sans-serif;font-weight:100;}
+.active{background-color: #dd8f3b;}
+
+/*end header section */
+
+
+
+/*start cheif section*/
+
+.cheif{height: 760px;}
+
+/*end cheif section*/
+
+
+/*start video section*/
+
+.video{height:800px;width:100%;padding: 50px  280px; text-align: center;} 
+
+.video h2{font-family: 'Yellowtail', cursive;font-size: 50px;color: #c76f10;font-weight:300;margin-bottom: 10px;}
+.video h1{font-size: 40px;padding-bottom: 15px;font-family: 'Anton', sans-serif;font-weight:600;letter-spacing: 1px;}
+.video hr {border: 1px solid  #c76f10;margin: 5px  280px;display: block;}
+.video iframe{margin-top: 50px;}
+
+/*end video section*/
+
+
+/*start properties section*/
+
+.properties{height:270px;border-top: 1px solid #999;border-bottom: 1px solid #999;}
+.properties .place ,.phone ,.contact_us, .message{width:25%;float: left;border-right: 1px solid #999;}
+.message{border-right: 0px;}
+.properties  img{width:80px ;height: 80px;margin:30px 0px 20px 35%}
+.properties  hr{border: 1px solid  #c76f10;margin: 5px 100px;}
+.properties  .place h4{font-size: 16px;color: #333;text-align: center;margin: 30px 40px 55px;}
+.properties .phone h4 ,.contact_us h4, .message h4{font-size: 16px;color: #333;text-align: center;margin: 30px 40px 73px;}
+.message h4{font-size: 18px;}
+.properties a:hover{text-decoration: underline;}
+/*end porperties section*/
+
+

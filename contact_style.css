@@ -1,0 +1,25 @@
+/*start header section */
+.slider_contact{background-image: url('images/59f1a208ffa06300013b4e3b_rob-bye-98949.jpg');background-position: center;background-repeat: no-repeat;
+    background-size: cover;height: 500px;line-height: 400px;}
+ .navbar{background-color: #555;}
+ .overlay_1{width: 100%;height: 100%;background-color:rgba(17, 17, 17, 0.5);position: relative;opacity: .9;
+    overflow: hidden;padding-top: 50px;}
+ .slider_contact h1{color:white;font-size:100px;letter-spacing: 3px;text-align: center;font-family: 'Anton', sans-serif;font-weight:100;}
+.active{background-color: #dd8f3b;}
+
+/*end header section */
+
+
+/*start contact us section*/
+.contact_us{height: 750px;width: 1000px;padding-top: 70px;margin: auto;padding-bottom: 50px;}
+.contact_us h2{font-family: 'Yellowtail', cursive;font-size: 50px;color: #c76f10;font-weight:300;margin-bottom: 10px;text-align: center;}
+.contact_us h1{font-size: 40px;padding-bottom: 15px;font-family: 'Anton', sans-serif;font-weight:600;letter-spacing: 1px;text-align: center;}
+.contact_us hr {border: 1px solid  #c76f10;margin: 5px  450px;display: block;}
+
+.contact_us input ,textarea{height: 50px;width: 400px;padding: 20px;font-size: 18px;color: #333;margin: 50px 0px 40px 45px;border: 2px solid #999;
+border-radius: 5px;background-color:rgb(231, 231, 231);}
+.contact_us textarea{height: 200px;width:855px;margin-top: 0px;}
+
+.contact_us button{background-color: #dd8f3b;color: white;padding: 15px;font-size: 18px;border: 0px;border-radius: 25px;
+    margin-left: 40%;margin-top: 5px;}
+/*end contact us section*/
